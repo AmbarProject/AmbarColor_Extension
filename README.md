@@ -1,7 +1,7 @@
 # AmbarColor_Extension
 Extensão do VSCode que personaliza a cor dos códigos Ambar
 
-
+---
 📖 Licença
 
 Este projeto está licenciado sob a MIT License, com a Commons Clause adicionada.
