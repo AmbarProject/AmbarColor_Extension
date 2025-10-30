@@ -1,0 +1,57 @@
+{
+  "name": "ambar-syntax",
+  "displayName": "Ambar - Highlighting & IntelliSense",
+  "description": "Extensão para destacar a sintaxe da linguagem Ambar (.amb), com snippets e autocomplete básico.",
+  "version": "1.1.0",
+  "publisher": "AmbarExtension",
+  "icon": "icons/logoExtensao.png",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "activationEvents": [
+    "onLanguage:ambar"
+  ],
+  "main": "./extension.js",
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "ambar",
+        "aliases": [
+          "Ambar",
+          "ambar"
+        ],
+        "extensions": [
+          ".amb"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "ambar-icons",
+        "label": "Ambar File Icons",
+        "path": "./icons/ambar-icon-theme.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "ambar",
+        "scopeName": "source.ambar",
+        "path": "./syntaxes/ambar.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "ambar",
+        "path": "./snippets/ambar.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AmbarProject/AmbarColor_Extension"
+  }
+}
