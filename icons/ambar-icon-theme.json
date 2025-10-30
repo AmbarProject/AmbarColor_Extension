@@ -1,0 +1,13 @@
+{
+  "iconDefinitions": {
+    "_ambar": {
+      "iconPath": "./ambar-icon.svg"
+    }
+  },
+  "fileExtensions": {
+    "ambar": "_ambar"
+  },
+  "languageIds": {
+    "ambar": "_ambar"
+  }
+}

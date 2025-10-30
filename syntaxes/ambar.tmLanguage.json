@@ -1,0 +1,55 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vscode/main/extensions/json/syntaxes/json.tmLanguage.schema.json",
+  "name": "Ambar",
+  "scopeName": "source.ambar",
+  "patterns": [
+    {
+      "name": "comment.line.double-slash.ambar",
+      "match": "//.*$"
+    },
+    {
+      "name": "comment.block.ambar",
+      "begin": "/\\*",
+      "end": "\\*/"
+    },
+    {
+      "name": "keyword.control.ambar",
+      "match": "\\b(if|else|for|while|return|func|print|break|continue)\\b"
+    },
+    {
+      "name": "storage.type.ambar",
+      "match": "\\b(int|float|bool|string|void)\\b"
+    },
+    {
+      "name": "constant.language.boolean.ambar",
+      "match": "\\b(true|false)\\b"
+    },
+    {
+      "name": "string.quoted.double.ambar",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "name": "constant.character.escape.ambar",
+          "match": "\\\\."
+        }
+      ]
+    },
+    {
+      "name": "constant.numeric.ambar",
+      "match": "\\b\\d+(\\.\\d+)?\\b"
+    },
+    {
+      "name": "keyword.operator.ambar",
+      "match": "(\\+|\\-|\\*|/|==|!=|<=|>=|<|>|&&|\\|\\|)"
+    },
+    {
+      "name": "punctuation.separator.ambar",
+      "match": "[:,;]"
+    },
+    {
+      "name": "variable.other.ambar",
+      "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b"
+    }
+  ]
+}
