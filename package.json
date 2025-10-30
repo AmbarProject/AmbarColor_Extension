@@ -2,7 +2,7 @@
   "name": "ambar-syntax",
   "displayName": "Ambar - Highlighting & IntelliSense",
   "description": "Extensão para destacar a sintaxe da linguagem Ambar (.amb), com snippets e autocomplete básico.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "publisher": "AmbarExtension",
   "icon": "icons/logoExtensao.png",
   "engines": {
