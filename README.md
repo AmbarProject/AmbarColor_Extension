@@ -1,4 +1,4 @@
-# 🌈 Ambar - Syntax Highlighting
+# ⚙️ Ambar - Syntax Highlighting
 
 Extensão oficial do **Ambar Language** para o Visual Studio Code.  
 Ela fornece **realce de sintaxe**, **snippets** e **ícones personalizados** para arquivos com a extensão `.amb`.
@@ -27,10 +27,10 @@ Ela fornece **realce de sintaxe**, **snippets** e **ícones personalizados** par
 ## 🧠 Exemplo de código
 
 ```ambar
-program HelloWorld
-
-print "Hello, Ambar!"
-end
+func main() -> int {
+  print("Hello Word!");
+  return 0;
+}
 ````
 
 ---
